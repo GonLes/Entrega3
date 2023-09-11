@@ -22,6 +22,19 @@ def tarea(req,nombreTarea,fechaInicio,fechaTermino,estado):
     return HttpResponse (f"""
     <p> Tarea:{tarea.nombreTarea} ha sido creada)""")
 
+def inicio(request):
+    return render(request,"Proyectos/inicio.html")
+
+def proyectos(request):
+    return render(request,"Proyectos/proyectos.html")
+
+def projectManagers(request):
+    return render(request,"Proyectos/projectmanagers.html")
+
+def tareas(request):
+    return render(request,"Proyectos/tareas.html")
+
+
 
 
 
