@@ -7,7 +7,9 @@ urlpatterns = [
     path('Proyectos/', proyectos, name="Proyectos"),
     path('ProjectManagers/', projectManagers, name="ProjectManagers"),
     path('Tareas/', tareas, name="Tareas"),
+    path('buscarProyecto/', buscarProyectos, name="buscarProyecto"),
     path('AgregaProyecto/', ProyectoCreate.as_view(), name="AgregaProyecto"),
-    #path('AgregaPm', pmsFormulario, name="AgregaPm"),
-    #path('AgregaTarea', tareaFormulario, name="AgregaTarea"),
+    path('AgregaPm/', projectManagerCreate.as_view(), name="AgregaPm"),
+    path('AgregaTarea/', TareaCreate.as_view(), name="AgregaTarea"),
+        
 ]
