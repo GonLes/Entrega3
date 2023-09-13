@@ -1,0 +1,10 @@
+1.-Cree una web para la gestion de proyectos, esta contiene 3 modelos:
+    Proyectos --> class Proyecto
+    Tareas--> class Tareas
+    projectManagers-->class ProjectManager
+
+ 2.- En la pagina web  de inicio de la AppProyectos en el modulo Nav estan los enlaces para la vistas de cada modelo utilizando herencia html
+ 3.- En cada vista hay un enlace para agregar registros a la BBDD 
+ 4.- En esta entrega solo genere los formularios para creacion de registros de Proyectos, Tareas y projectManagers
+ 5.- Por razones de tiempo no alcance a finalizar e im0plementar el formulario de busqueda.
+

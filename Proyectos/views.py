@@ -41,7 +41,7 @@ def tareas(request):
 def buscarProyectos(request):
      return render(request,'Proyectos/buscar_proyecto.html')
 
-def buscar(request):
+#def buscar(request):
      
 #formularios
 #def proyectoFormulario(request):
