@@ -1,4 +1,4 @@
-1.-Cree una web para la gestion de proyectos, esta contiene 3 modelos:
+1.-Cree una web para la gestion de proyectos llamada GestorProyectos y una app al interior llamada Proyectos , esta contiene 3 modelos:
     Proyectos --> class Proyecto
     Tareas--> class Tareas
     projectManagers-->class ProjectManager
