@@ -38,8 +38,18 @@ def projectManagers(request):
 def tareas(request):
     return render(request,"Proyectos/tareas.html")
 
-def buscarProyectos(request):
-     return render(request,'Proyectos/buscar_proyecto.html')
+def busquedaProyectos(request):
+     return render(request,'Proyectos/busqueda_proyecto.html')
+
+def buscar (request):
+    if request.GET["codigo"]:
+        codigo=request.GET['codigo']
+        proyectos=Proyecto.objects.filter(codigo__icontains=codigo)
+        return render(request,"Proyectos/resultadosBusqueda.html",{'proyectos':proyectos,'codigo':codigo})
+    else:
+         respuesta=f"No enviaste datos"
+    return HttpResponse(respuesta)
+       
 
 #def buscar(request):
      

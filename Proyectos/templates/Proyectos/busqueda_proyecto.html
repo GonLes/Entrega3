@@ -1,0 +1,11 @@
+
+{% extends "Proyectos/padre.html" %}
+
+{% block contenidoQueCambia %}
+
+    <form action="{% url 'buscar' %}" method="get">
+        <input type="number" name="codigo">
+        <input type="submit" value="Buscar">
+        <p>Ingrese algun texto asociado al proyecto</p>
+    </form>
+{% endblock %}

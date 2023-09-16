@@ -1,0 +1,12 @@
+{% extends "Proyectos/padre.html" %}
+
+{% block contenidoQueCambia %}
+<p>Estamos buscando proyectos con codigo {{codigo}} </p>
+{% if proyectos %}
+    <ul>
+        {% for proyecto in proyectos%}
+            <li>{{ proyecto }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+{% endblock %}
