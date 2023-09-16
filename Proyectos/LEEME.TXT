@@ -9,3 +9,7 @@
  5.- para realizar pruebas, dirijase al enlace de Busqueda de Proyectos de la pagina Inicio e ingrese el codigo 1234, al enviar la infromacion aparecera listado de proyectos que cumplen con el codigo.
 
 
+super user admin :gonzalo
+pass:123456789
+
+
