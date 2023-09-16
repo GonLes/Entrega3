@@ -6,5 +6,6 @@
  2.- En la pagina web  de inicio de la AppProyectos en el modulo Nav estan los enlaces para la vistas de cada modelo utilizando herencia html
  3.- En cada vista hay un enlace para agregar registros a la BBDD 
  4.- En esta entrega solo genere los formularios para creacion de registros de Proyectos, Tareas y projectManagers
- 5.- Por razones de tiempo no alcance a finalizar e im0plementar el formulario de busqueda.
+ 5.- para realizar pruebas, dirijase al enlace de Busqueda de Proyectos de la pagina Inicio e ingrese el codigo 1234, al enviar la infromacion aparecera listado de proyectos que cumplen con el codigo.
+
 
